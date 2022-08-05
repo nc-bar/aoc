@@ -29,7 +29,6 @@ vector<instruction> read_instructions() {
 }
 
 position compute_position(vector<instruction> is) {
-	int line = 0;
 	position p = {0, 0};
 
 	// move according to the instructions
